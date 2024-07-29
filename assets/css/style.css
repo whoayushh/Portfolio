@@ -1280,7 +1280,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 /**
  * responsive larger than 580px screen
  */
-
+@media (max-width: 580px){
+  #clg-img{
+    height:60px;
+    width:60px;
+    
+}
 @media (min-width: 580px) {
 
   /**
